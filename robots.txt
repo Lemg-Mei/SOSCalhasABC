@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://lemg-mei.github.io/SOSCalhasABC/sitemap.xml
