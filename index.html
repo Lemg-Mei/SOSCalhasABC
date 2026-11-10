@@ -554,6 +554,22 @@
       .btn,.btn-gold,.btn-dark,.btn-black,.btn-cta{padding:13px 16px;font-size:14px}
       .video-grid{grid-template-columns:1fr}
     }
+
+    .obra-real{margin-bottom:48px}
+    .obra-real h2,.equipe h2{font-size:clamp(26px,4vw,42px);line-height:1.12;margin:0 0 12px}
+    .obra-fotos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:24px}
+    .obra-fotos figure{margin:0;overflow:hidden;border-radius:14px;background:#f3f4f6}
+    .obra-fotos img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+    .obra-fotos figcaption{padding:10px 12px;font-size:14px;font-weight:800}
+    .equipe{border-top:1px solid #e5e7eb}
+    .equipe-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);align-items:center;gap:clamp(20px,5vw,56px);max-width:920px}
+    .equipe img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 60%;border-radius:14px}
+    .equipe p{margin:0 0 16px;line-height:1.6;color:#4b5563}
+    @media(max-width:650px){
+      .obra-fotos{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .obra-fotos figure:last-child{grid-column:1/-1}
+      .equipe-grid{grid-template-columns:1fr}
+    }
   </style>
 
   <!-- Structured Data JSON-LD -->
@@ -568,7 +584,7 @@
       "image": "https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-calhas-abc.jpg",
       "description": "Empresa especializada em calhas, rufos, limpeza, manutenção de telhados, impermeabilização com manta líquida e reformas no ABC Paulista e Grande São Paulo.",
       "url": "https://lemg-mei.github.io/SOSCalhasABC/",
-      "telephone": "+5511947817385",
+      "telephone": "+5511963336536",
       "priceRange": "$",
       "address": {
         "@type": "PostalAddress",
@@ -590,7 +606,7 @@
         "closes": "18:00"
       },
       "sameAs": [
-        "https://www.instagram.com/soscalhasabc/"
+        "https://www.instagram.com/sos_reformas_abc/"
       ],
       "areaServed": [
         {"@type": "City", "name": "Santo André"},
@@ -603,17 +619,10 @@
       "contactPoint": [
         {
           "@type": "ContactPoint",
-          "telephone": "+5511947817385",
+          "telephone": "+5511963336536",
           "contactType": "customer service",
           "availableLanguage": "Portuguese",
-          "name": "Leonardo"
-        },
-        {
-          "@type": "ContactPoint",
-          "telephone": "+5511983029180",
-          "contactType": "customer service",
-          "availableLanguage": "Portuguese",
-          "name": "Manoel"
+          "name": "SOS Reformas"
         }
       ],
       "hasOfferCatalog": {
@@ -665,7 +674,7 @@
             "itemOffered": {
               "@type": "Service",
               "name": "Reformas em Geral",
-              "description": "Reformas prediais e residenciais no ABC e SP com acabamento de alto padrão e equipe especializada."
+              "description": "Alvenaria, fundação, pintura, acabamento, hidráulica e elétrica para reformas no ABC Paulista e São Paulo capital."
             }
           }
         ]
@@ -695,7 +704,7 @@
           "name": "Como solicitar um orçamento?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Basta chamar no WhatsApp pelos números (11) 94781-7385 (Leonardo) ou (11) 98302-9180 (Manoel). Enviar foto ou vídeo do local agiliza a avaliação e o orçamento."
+            "text": "Basta chamar no WhatsApp pelo número (11) 96333-6536. Enviar foto ou vídeo do local agiliza a avaliação e o orçamento."
           }
         },
         {
@@ -747,7 +756,7 @@
           </div>
         </a>
 
-        <a class="btn btn-gold mobile-cta" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20da%20SOS%20Reformas" target="_blank" rel="noopener">ORÇAMENTO RÁPIDO</a>
+        <a class="btn btn-gold mobile-cta" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20da%20SOS%20Reformas" target="_blank" rel="noopener">ORÇAMENTO RÁPIDO</a>
 
         <div class="nav-links">
           <a class="active" href="#inicio">INÍCIO</a>
@@ -758,7 +767,7 @@
           <a href="#pintura">PINTURA & VEDAÇÃO</a>
           <a href="#faq">FAQ</a>
           <a href="#contato">CONTATO</a>
-          <a class="btn btn-cta" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20da%20SOS%20Reformas" target="_blank" rel="noopener">SOLICITE UM ORÇAMENTO</a>
+          <a class="btn btn-cta" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20da%20SOS%20Reformas" target="_blank" rel="noopener">SOLICITE UM ORÇAMENTO</a>
         </div>
       </nav>
     </div>
@@ -771,10 +780,10 @@
           <div class="hero-copy">
             <div class="eyebrow">ATENDIMENTO NO ABC PAULISTA E GRANDE SÃO PAULO</div>
             <h1>Calhas, Rufos, Telhados e Reformas no <span class="gold">ABC Paulista e SP</span></h1>
-            <p>Instalação, limpeza, manutenção de calhas e rufos, reforma de telhados, impermeabilização com manta líquida e reformas em geral. Acabamento profissional, segurança e garantia comprovada da <strong>SOS Reformas</strong> (sua conhecida <strong>SOS Calhas ABC</strong>).</p>
+            <p><strong>SOS Reformas</strong> é uma equipe de pai e filho com mais de 35 anos de experiência em construção e reformas. De goteiras no telhado e vazamentos nas calhas à reforma completa, conte com a gente para planejar sua obra.</p>
 
             <div class="hero-actions">
-              <a class="btn btn-gold" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20da%20SOS%20Reformas" target="_blank" rel="noopener">SOLICITE UM ORÇAMENTO</a>
+              <a class="btn btn-gold" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20da%20SOS%20Reformas" target="_blank" rel="noopener">SOLICITE UM ORÇAMENTO</a>
               <a class="btn btn-dark" href="#servicos">CONHEÇA OS SERVIÇOS</a>
             </div>
 
@@ -854,7 +863,7 @@
       <div class="container">
         <div class="bridge-banner">
           <h2>A <span class="gold">SOS Calhas ABC</span> agora é <span class="gold">SOS Reformas</span></h2>
-          <p>Com anos de excelência em Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema, Mauá e São Paulo, expandimos nossa estrutura para cuidar do seu imóvel por completo. A mesma equipe de confiança, com soluções integradas de calhas, coberturas, impermeabilizações e reformas.</p>
+          <p>A mesma equipe, com mais serviços para sua obra. Atendemos todo o ABC Paulista e São Paulo capital com calhas, telhados e reformas residenciais e comerciais.</p>
         </div>
 
         <div class="pillars-grid">
@@ -890,18 +899,50 @@
 
           <div class="pillar-card">
             <div class="pillar-icon">🧱</div>
-            <h3>Reformas em Geral</h3>
-            <p>Serviços completos de reformas residenciais e comerciais no ABC Paulista com compromisso de prazo, limpeza e qualidade.</p>
+            <h3>Alvenaria e Fundação</h3>
+            <p>Construção e reforma com serviços de alvenaria, brocas e sapatas para colunas.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">🖌️</div>
+            <h3>Pintura e Acabamento</h3>
+            <p>Preparação de superfícies, pintura de ambientes e acabamentos para renovar seu imóvel.</p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">🔧</div>
+            <h3>Hidráulica e Elétrica</h3>
+            <p>Instalações e reparos hidráulicos e elétricos para obras e reformas.</p>
           </div>
         </div>
 
         <div class="center-cta">
-          <a class="btn btn-gold btn-center" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20meu%20im%C3%B3vel" target="_blank" rel="noopener">FALE COM NOSSO ESPECIALISTA</a>
+          <a class="btn btn-gold btn-center" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20para%20meu%20im%C3%B3vel" target="_blank" rel="noopener">FALE COM NOSSO ESPECIALISTA</a>
         </div>
       </div>
-    </section>iv>
+    </section>
 
     <section class="white-section" id="galeria">
+      <div class="container obra-real">
+        <div class="white-head">
+          <h2>Veja o trabalho da SOS Reformas</h2>
+          <p>Antes e depois de uma reforma de telhado e registro de um reparo de calha em andamento.</p>
+        </div>
+        <div class="obra-fotos">
+          <figure>
+            <img src="img/reforma-antes.webp" alt="Telhado antes da reforma, visto ao lado dos reservatórios de água" loading="lazy" decoding="async" />
+            <figcaption>Telhado · Antes</figcaption>
+          </figure>
+          <figure>
+            <img src="img/reforma-depois.webp" alt="O mesmo telhado após a reforma" loading="lazy" decoding="async" />
+            <figcaption>Telhado · Depois</figcaption>
+          </figure>
+          <figure>
+            <img src="img/reparo-calha-em-obra.webp" alt="Equipe trabalhando na calha junto ao beiral" loading="lazy" decoding="async" />
+            <figcaption>Reparo de calha · Em execução</figcaption>
+          </figure>
+        </div>
+      </div>
       <div class="container">
         <div class="white-head">
           <h2 style="margin:0 0 5px;font-size:clamp(34px,4vw,56px);line-height:1.03;letter-spacing:-.035em;font-weight:900;">Serviços de Calhas e Rufos no ABC Paulista</h2>
@@ -934,7 +975,7 @@
         </div>
 
         <div class="center-cta">
-          <a class="btn btn-gold btn-center" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20quero%20ver%20mais%20fotos%20dos%20servi%C3%A7os" target="_blank" rel="noopener">VER MAIS FOTOS</a>
+          <a class="btn btn-gold btn-center" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20quero%20ver%20mais%20fotos%20dos%20servi%C3%A7os" target="_blank" rel="noopener">VER MAIS FOTOS</a>
         </div>
       </div>
     </section>
@@ -1025,7 +1066,7 @@
             </div>
 
             <div style="display:flex;gap:14px;flex-wrap:wrap;">
-              <a class="btn btn-gold" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20quero%20or%C3%A7amento%20para%20pintura%20de%20telhado" target="_blank" rel="noopener">ORÇAMENTO PARA PINTURA</a>
+              <a class="btn btn-gold" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20quero%20or%C3%A7amento%20para%20pintura%20de%20telhado" target="_blank" rel="noopener">ORÇAMENTO PARA PINTURA</a>
               <a class="btn btn-black" href="#contato">FALE COM A GENTE</a>
             </div>
           </div>
@@ -1059,7 +1100,7 @@
         <div class="bottom-bar">
           <strong>FALE AGORA COM A GENTE E SOLICITE SEU ORÇAMENTO!</strong>
           <span>Atendimento rápido e sem compromisso</span>
-          <a class="btn" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento" target="_blank" rel="noopener">CHAMAR NO WHATSAPP</a>
+          <a class="btn" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento" target="_blank" rel="noopener">CHAMAR NO WHATSAPP</a>
         </div>
       </div>
     </section>
@@ -1078,7 +1119,7 @@
           </details>
           <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">Como posso solicitar um orçamento rápido?</summary>
-            <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Você pode clicar em qualquer botão do WhatsApp no site ou chamar diretamente pelos números (11) 94781-7385 (Leonardo) ou (11) 98302-9180 (Manoel). O envio de fotos ou vídeos do local ajuda a agilizar a estimativa inicial.</p>
+            <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Você pode clicar em qualquer botão do WhatsApp no site ou chamar diretamente pelo número (11) 96333-6536. O envio de fotos ou vídeos do local ajuda a agilizar a estimativa inicial.</p>
           </details>
           <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">A pintura e impermeabilização com manta líquida resolvem vazamentos?</summary>
@@ -1096,15 +1137,15 @@
       </div>
     </section>
 
-    <section class="white-section" id="sobre-nos" style="padding: 44px 0; border-top: 1px solid #e5e7eb;">
-      <div class="container" style="max-width: 920px; margin: 0 auto; text-align: center;">
-        <h2 style="font-size: 26px; color: #111; margin-bottom: 16px; font-weight: 900;">Por que escolher a SOS Reformas (antiga SOS Calhas ABC) no ABC e São Paulo?</h2>
-        <p style="color: #4b5563; line-height: 1.65; font-size: 16px; margin-bottom: 16px;">
-          Se você procura por <strong>instalação de calhas no ABC Paulista</strong>, <strong>manutenção de rufos</strong>, <strong>reforma de telhados</strong> ou <strong>impermeabilização com manta líquida</strong>, a <strong>SOS Reformas</strong> é a sua escolha de confiança. Atendemos com agilidade, transparência e garantia em <strong>Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema, Mauá</strong> e em toda a <strong>Grande São Paulo</strong>.
-        </p>
-        <p style="color: #4b5563; line-height: 1.65; font-size: 16px;">
-          Nossos serviços previnem infiltrações, goteiras, mofo e danos estruturais graves ao seu imóvel. Trabalhamos exclusivamente com materiais de primeira linha (alumínio, chapa galvanizada, borracha líquida e tintas térmicas emborrachadas) para que sua residência, condomínio ou comércio fiquem completamente blindados contra tempestades. Resolva problemas de <strong>calhas entupidas</strong> e <strong>vazamentos no telhado</strong> com técnicos experientes e garantia de serviço.
-        </p>
+    <section class="white-section equipe" id="sobre-nos">
+      <div class="container equipe-grid">
+        <img src="img/equipe-sos-reformas.webp" alt="Pai e filho da SOS Reformas juntos em uma obra de alvenaria" loading="lazy" decoding="async" />
+        <div>
+          <h2>Pai e filho na obra</h2>
+          <p>A SOS Reformas reúne mais de 35 anos de experiência em construção e reformas. Atuamos do alicerce ao acabamento, com serviços de alvenaria, pintura, hidráulica, elétrica, telhados, calhas e rufos.</p>
+          <p>Vai reformar? Envie fotos ou um vídeo do local pelo WhatsApp para pedir seu orçamento e consultar as próximas datas disponíveis.</p>
+          <a class="btn btn-gold" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento" target="_blank" rel="noopener">PEÇA SEU ORÇAMENTO</a>
+        </div>
       </div>
     </section>
 
@@ -1121,9 +1162,8 @@
         <div>
           <h3>Atendimento e Orçamentos</h3>
           <ul>
-            <li><a href="https://wa.me/5511947817385" target="_blank" rel="noopener">WhatsApp Leonardo: (11) 94781-7385</a></li>
-            <li><a href="https://wa.me/5511983029180" target="_blank" rel="noopener">WhatsApp Manoel: (11) 98302-9180</a></li>
-            <li><a href="https://www.instagram.com/soscalhasabc/" target="_blank" rel="noopener">Instagram: @soscalhasabc</a></li>
+            <li><a href="https://wa.me/5511963336536" target="_blank" rel="noopener">WhatsApp SOS Reformas: (11) 96333-6536</a></li>
+            <li><a href="https://www.instagram.com/sos_reformas_abc/" target="_blank" rel="noopener">Instagram: @sos_reformas_abc</a></li>
           </ul>
         </div>
         <div>
@@ -1146,7 +1186,7 @@
 
   <div class="whatsapp-wrapper">
     <span class="whatsapp-badge-text">Orçamento Rápido via WhatsApp</span>
-    <a class="whatsapp-float" href="https://wa.me/5511947817385?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20SOS%20Reformas%20e%20quero%20um%20or%C3%A7amento" target="_blank" rel="noopener" aria-label="Falar no WhatsApp com SOS Reformas">
+    <a class="whatsapp-float" href="https://wa.me/5511963336536?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20SOS%20Reformas%20e%20quero%20um%20or%C3%A7amento" target="_blank" rel="noopener" aria-label="Falar no WhatsApp com SOS Reformas">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.41a8.216 8.216 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.23-.17-.48-.29z"/>
       </svg>
