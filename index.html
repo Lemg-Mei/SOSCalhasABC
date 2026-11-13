@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#04070c" />
+  <meta name="theme-color" content="#080808" />
+  <link rel="icon" type="image/jpeg" href="img/logo-sos-reformas-oficial.jpg" />
   <title>SOS Reformas | Calhas, Rufos e Telhados no ABC e SP (Antiga SOS Calhas ABC)</title>
   <meta name="description" content="SOS Reformas (antiga SOS Calhas ABC): Instalação e limpeza de calhas, rufos, reformas de telhados e impermeabilização no ABC e SP. Peça seu orçamento via WhatsApp!" />
   
@@ -11,7 +12,7 @@
   <meta property="og:description" content="Especialistas em calhas, rufos, manutenção de telhados, impermeabilização e reformas em Santo André, São Bernardo, São Caetano e SP. Atendimento ágil via WhatsApp." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lemg-mei.github.io/SOSCalhasABC/" />
-  <meta property="og:image" content="https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-calhas-abc.jpg" />
+  <meta property="og:image" content="https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-oficial.jpg" />
   <meta property="og:locale" content="pt_BR" />
   <meta name="geo.region" content="BR-SP" />
   <meta name="geo.placename" content="Santo André" />
@@ -21,7 +22,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="SOS Reformas | Calhas, Rufos e Telhados no ABC e SP" />
   <meta name="twitter:description" content="Instalação de calhas, rufos, reformas de telhados e impermeabilização no ABC Paulista. Atendimento ágil via WhatsApp." />
-  <meta name="twitter:image" content="https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-calhas-abc.jpg" />
+  <meta name="twitter:image" content="https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-oficial.jpg" />
 
   <!-- Search Console Verification -->
   <meta name="google-site-verification" content="googleb5dce199ae672d9f" />
@@ -30,16 +31,16 @@
 
   <style>
     :root{
-      --bg:#04070c;
-      --bg2:#08101a;
-      --gold:#d0a042;
-      --gold2:#efc76e;
+      --bg:#080808;
+      --bg2:#141414;
+      --gold:#ffc400;
+      --gold2:#ffd43b;
       --white:#ffffff;
       --text:#f5f7fa;
       --muted:#cfd5dd;
       --muted2:#a7b0bc;
       --line:rgba(255,255,255,.09);
-      --panel:#0c131d;
+      --panel:#191919;
       --shadow:0 22px 50px rgba(0,0,0,.28);
       --max:1280px;
     }
@@ -48,7 +49,7 @@
     body{
       margin:0;
       font-family:Arial, Helvetica, sans-serif;
-      background:linear-gradient(180deg,#04070c,#09111b 24%,#08101a 100%);
+      background:linear-gradient(180deg,#080808,#141414 24%,#141414 100%);
       color:var(--text);
       -webkit-font-smoothing:antialiased;
       text-rendering:optimizeLegibility;
@@ -59,19 +60,20 @@
     .container{width:min(calc(100% - 34px),var(--max));margin:0 auto}
 
     .topline{
-      background:#050910;
-      border-bottom:1px solid rgba(208,160,66,.22);
-      color:#eedcae;
+      background:#080808;
+      border-bottom:1px solid rgba(255,196,0,.22);
+      color:#fff0b3;
       font-size:14px;
     }
     .topline .container{
       display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 0;
     }
+    a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
     .topline strong{color:var(--gold2)}
 
     header{
       position:sticky;top:0;z-index:60;
-      background:rgba(4,7,12,.92);
+      background:rgba(8,8,8,.92);
       backdrop-filter:blur(12px);
       border-bottom:1px solid rgba(255,255,255,.05);
     }
@@ -81,7 +83,7 @@
     }
     .brand{display:flex;align-items:center;gap:14px;min-width:0}
     .brand img{
-      width:64px;height:64px;object-fit:cover;border-radius:14px;background:#fff;
+      width:64px;height:64px;object-fit:contain;border-radius:50%;background:#000;
       border:2px solid rgba(255,255,255,.08);box-shadow:var(--shadow);flex:0 0 auto;
     }
     .brand-text .brand-title{
@@ -114,8 +116,8 @@
     .btn:hover{transform:translateY(-1px)}
     .btn-cta{
       background:transparent;
-      color:#f7d98e;
-      border:2px solid rgba(208,160,66,.65);
+      color:#ffd43b;
+      border:2px solid rgba(255,196,0,.65);
       border-radius:10px;
       padding:14px 24px;
       box-shadow:inset 0 0 0 1px rgba(255,255,255,.03);
@@ -125,17 +127,17 @@
       background:linear-gradient(135deg,var(--gold),var(--gold2));
       padding:16px 28px;
       border-radius:8px;
-      box-shadow:0 18px 34px rgba(208,160,66,.22);
+      box-shadow:0 18px 34px rgba(255,196,0,.22);
     }
     .btn-dark{
-      color:#f3d48f;
+      color:#ffd43b;
       background:transparent;
-      border:2px solid rgba(208,160,66,.48);
+      border:2px solid rgba(255,196,0,.48);
       padding:15px 24px;
       border-radius:8px;
     }
     .btn-black{
-      background:#0b1017;
+      background:#141414;
       color:#fff;
       border:1px solid rgba(255,255,255,.1);
       border-radius:8px;
@@ -145,8 +147,8 @@
     .hero{
       padding:0;
       background:
-        radial-gradient(circle at 14% 28%, rgba(208,160,66,.16), transparent 24%),
-        linear-gradient(90deg,#060a10 0%, #0a0e15 36%, #101722 100%);
+        radial-gradient(circle at 14% 28%, rgba(255,196,0,.16), transparent 24%),
+        linear-gradient(90deg,#080808 0%, #141414 36%, #202020 100%);
     }
     .hero-grid{
       display:grid;
@@ -160,9 +162,9 @@
     }
     .eyebrow{
       display:inline-flex;align-items:center;
-      border:1px solid rgba(208,160,66,.38);
-      color:#f3d48f;
-      background:rgba(208,160,66,.1);
+      border:1px solid rgba(255,196,0,.38);
+      color:#ffd43b;
+      background:rgba(255,196,0,.1);
       border-radius:999px;
       padding:8px 16px;
       font-size:12px;font-weight:900;letter-spacing:.03em;
@@ -198,7 +200,7 @@
     }
     .hero-mini-icon{
       width:44px;height:44px;border-radius:50%;
-      border:2px solid rgba(208,160,66,.45);
+      border:2px solid rgba(255,196,0,.45);
       display:grid;place-items:center;
       color:var(--gold2);font-size:18px;flex:0 0 auto;
     }
@@ -219,7 +221,7 @@
       content:"";
       position:absolute;inset:0;
       background:
-        linear-gradient(90deg, rgba(5,8,13,.93) 0%, rgba(5,8,13,.28) 23%, rgba(5,8,13,0) 46%),
+        linear-gradient(90deg, rgba(8,8,8,.93) 0%, rgba(8,8,8,.28) 23%, rgba(8,8,8,0) 46%),
         linear-gradient(180deg, rgba(0,0,0,.02), rgba(0,0,0,.26));
       z-index:2;pointer-events:none;
     }
@@ -230,7 +232,7 @@
     .hero-badge{
       position:absolute;right:34px;bottom:48px;z-index:3;
       width:320px;
-      background:rgba(11,16,23,.82);
+      background:rgba(20,20,20,.82);
       border:1px solid rgba(255,255,255,.1);
       border-radius:18px;
       padding:18px 18px;
@@ -245,7 +247,7 @@
     }
 
     .benefits-bar{
-      background:#0a0e14;
+      background:#111111;
       border-top:1px solid rgba(255,255,255,.06);
       border-bottom:1px solid rgba(255,255,255,.06);
     }
@@ -271,13 +273,13 @@
 
     /* Bridge Section - SOS Reformas Pillars */
     .bridge-section{
-      background:#08101a;
+      background:#141414;
       padding:50px 0;
       border-bottom:1px solid rgba(255,255,255,.06);
     }
     .bridge-banner{
-      background:linear-gradient(135deg, rgba(208,160,66,.15), rgba(12,19,29,.85));
-      border:1px solid rgba(208,160,66,.35);
+      background:linear-gradient(135deg, rgba(255,196,0,.15), rgba(25,25,25,.85));
+      border:1px solid rgba(255,196,0,.35);
       border-radius:18px;
       padding:30px;
       margin-bottom:34px;
@@ -294,7 +296,7 @@
       display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;
     }
     .pillar-card{
-      background:#0d1624;
+      background:#1b1b1b;
       border:1px solid rgba(255,255,255,.08);
       border-radius:16px;
       padding:24px 22px;
@@ -302,7 +304,7 @@
     }
     .pillar-card:hover{
       transform:translateY(-3px);
-      border-color:rgba(208,160,66,.45);
+      border-color:rgba(255,196,0,.45);
     }
     .pillar-icon{
       font-size:30px;margin-bottom:12px;color:var(--gold2);display:inline-block;
@@ -360,13 +362,13 @@
     .btn-center{min-width:240px}
 
     .dark-section{
-      background:#07111d;color:#fff;padding:40px 0 32px;
+      background:#111111;color:#fff;padding:40px 0 32px;
     }
     .video-grid{
       display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;
     }
     .video-card{
-      background:#101723;border:1px solid rgba(255,255,255,.08);
+      background:#202020;border:1px solid rgba(255,255,255,.08);
       border-radius:16px;overflow:hidden;box-shadow:var(--shadow);
     }
     .video-frame{position:relative;background:#000}
@@ -380,7 +382,7 @@
     }
     .video-card iframe{width:100%;display:block;border:0}
     .video-caption{
-      padding:14px 16px;background:#0a1018;
+      padding:14px 16px;background:#141414;
       text-align:center;color:var(--gold2);font-size:17px;font-weight:900;margin:0;
     }
 
@@ -417,7 +419,7 @@
       font-style:normal;
       width:26px;height:26px;border-radius:50%;
       display:grid;place-items:center;
-      background:#f6e6bf;color:#8a6114;font-weight:900;flex:0 0 auto;
+      background:#fff0b3;color:#684d00;font-weight:900;flex:0 0 auto;
     }
     .service-item strong{
       display:block;font-size:16px;margin-bottom:4px;color:#111827;
@@ -437,13 +439,13 @@
     }
 
     .bottom-cta{
-      padding:24px 0 36px;background:#07111d;
+      padding:24px 0 36px;background:#111111;
     }
     .bottom-bar{
       display:grid;grid-template-columns:1.3fr 1fr .7fr;gap:16px;align-items:center;
       background:linear-gradient(135deg,var(--gold),var(--gold2));
       color:#111;padding:20px 24px;border-radius:10px;
-      box-shadow:0 16px 40px rgba(208,160,66,.22);
+      box-shadow:0 16px 40px rgba(255,196,0,.22);
     }
     .bottom-bar strong{
       font-size:18px;line-height:1.3;font-weight:900;
@@ -452,11 +454,11 @@
       text-align:center;color:#392a0c;font-weight:800;font-size:14px;
     }
     .bottom-bar .btn{
-      width:100%;background:#10151c;color:#fff;border-radius:8px;padding:15px 18px;
+      width:100%;background:#191919;color:#fff;border-radius:8px;padding:15px 18px;
     }
 
     footer{
-      background:#04070c;border-top:1px solid rgba(255,255,255,.06);
+      background:#080808;border-top:1px solid rgba(255,255,255,.06);
       padding:28px 0 34px;color:#cad0d8;
     }
     .footer-grid{
@@ -492,7 +494,7 @@
     .whatsapp-float:hover{transform:scale(1.06)}
     .whatsapp-float svg{width:34px;height:34px;fill:#fff}
     .whatsapp-badge-text{
-      background:#0a1018;color:#fff;border:1px solid rgba(208,160,66,.45);
+      background:#141414;color:#fff;border:1px solid rgba(255,196,0,.45);
       border-radius:30px;padding:8px 14px;font-size:13px;font-weight:800;
       box-shadow:0 8px 20px rgba(0,0,0,.4);white-space:nowrap;
     }
@@ -530,7 +532,8 @@
       .brand-text .brand-title{font-size:16px}
       .brand-text p{font-size:12px}
       .mobile-cta{width:100%}
-      .hero-copy{padding:32px 0 20px}
+      .hero-copy{padding:32px 0 20px;min-width:0}
+      .eyebrow{max-width:100%;white-space:normal}
       .hero h1{font-size:clamp(32px,10vw,48px);line-height:1.02}
       .hero p{font-size:15px;line-height:1.55}
       .hero-actions{display:grid;grid-template-columns:1fr}
@@ -581,7 +584,7 @@
       "@id": "https://lemg-mei.github.io/SOSCalhasABC/#business",
       "name": "SOS Reformas",
       "alternateName": ["SOS Calhas ABC", "SOS Reformas ABC"],
-      "image": "https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-calhas-abc.jpg",
+      "image": "https://lemg-mei.github.io/SOSCalhasABC/img/logo-sos-reformas-oficial.jpg",
       "description": "Empresa especializada em calhas, rufos, limpeza, manutenção de telhados, impermeabilização com manta líquida e reformas no ABC Paulista e Grande São Paulo.",
       "url": "https://lemg-mei.github.io/SOSCalhasABC/",
       "telephone": "+5511963336536",
@@ -749,7 +752,7 @@
     <div class="container">
       <nav>
         <a class="brand" href="#inicio">
-          <img src="img/logo-sos-reformas-calhas-abc.jpg" alt="SOS Reformas - Calhas, Rufos e Telhados (Anteriormente SOS Calhas ABC)" width="64" height="64" loading="eager" decoding="async" fetchpriority="high" />
+          <img src="img/logo-sos-reformas-oficial.jpg" alt="SOS Reformas — do alicerce ao acabamento" width="64" height="64" loading="eager" decoding="async" fetchpriority="high" />
           <div class="brand-text">
             <span class="brand-title">SOS Reformas</span>
             <p>Calhas, rufos, telhados, impermeabilização e reformas <span class="brand-sub">(Antiga SOS Calhas ABC)</span></p>
@@ -1113,23 +1116,23 @@
         </div>
 
         <div style="display:grid; gap:12px; max-width:960px; margin:0 auto;">
-          <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
+          <details style="background:#202020;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">Quais serviços a SOS Reformas (antiga SOS Calhas ABC) realiza?</summary>
             <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Atuamos com fabricação, instalação e troca de calhas e rufos, limpeza preventiva e desentupimento, manutenção e reforma completa de telhados, impermeabilização com manta líquida e borracha líquida contra vazamentos, pintura térmica de coberturas e reformas gerais residenciais e comerciais.</p>
           </details>
-          <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
+          <details style="background:#202020;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">Como posso solicitar um orçamento rápido?</summary>
             <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Você pode clicar em qualquer botão do WhatsApp no site ou chamar diretamente pelo número (11) 96333-6536. O envio de fotos ou vídeos do local ajuda a agilizar a estimativa inicial.</p>
           </details>
-          <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
+          <details style="background:#202020;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">A pintura e impermeabilização com manta líquida resolvem vazamentos?</summary>
             <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Sim. A manta líquida ou borracha líquida forma uma película elástica e contínua sem emendas, vedando microfissuras em telhas e fixadores, acabando com goteiras e reduzindo a temperatura do ambiente.</p>
           </details>
-          <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
+          <details style="background:#202020;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">Qual a periodicidade indicada para limpeza de calhas?</summary>
             <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Recomendamos fazer a manutenção e desobstrução das calhas a cada 6 meses. Se o imóvel estiver cercado por árvores, a revisão deve ser feita a cada 3 a 4 meses para evitar que folhas e poeira entupam os condutores de água da chuva.</p>
           </details>
-          <details style="background:#101723;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
+          <details style="background:#202020;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:16px 18px;">
             <summary style="cursor:pointer;font-weight:900;font-size:16px;">Quais cidades do ABC Paulista e SP vocês atendem?</summary>
             <p style="color:#d5d9df;line-height:1.6;margin-top:10px;">Atendemos toda a região do Grande ABC: Santo André, São Bernardo do Campo, São Caetano do Sul, Diadema, Mauá, Ribeirão Pires, Rio Grande da Serra, além de toda a cidade de São Paulo e Grande SP.</p>
           </details>
